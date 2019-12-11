@@ -1,2 +1,2 @@
 # 21stcenturyjavatesting
-Restfull Spring App fully covered by tests
+Restful Spring App fully covered by tests
