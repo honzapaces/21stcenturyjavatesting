@@ -1,0 +1,81 @@
+{
+  "latitude": 49.181,
+  "longitude": 16.6058,
+  "timezone": "Europe/Prague",
+  "currently": {
+    "time": 1565906400,
+    "summary": "Zataženo",
+    "icon": "cloudy",
+    "precipIntensity": 0,
+    "precipProbability": 0,
+    "temperature": 20.13,
+    "apparentTemperature": 20.13,
+    "dewPoint": 9.45,
+    "humidity": 0.5,
+    "pressure": 1015.06,
+    "windSpeed": 0.69,
+    "windGust": 2.94,
+    "windBearing": 315,
+    "cloudCover": 0.92,
+    "uvIndex": 0,
+    "visibility": 10.003,
+    "ozone": 325.8
+  },
+  "daily": {
+    "data": [
+      {
+        "time": 1565906400,
+        "summary": "Během dne částečně zataženo.",
+        "icon": "rain",
+        "sunriseTime": 1565927279,
+        "sunsetTime": 1565979044,
+        "moonPhase": 0.54,
+        "precipIntensity": 0.0906,
+        "precipIntensityMax": 0.3604,
+        "precipIntensityMaxTime": 1565917200,
+        "precipProbability": 0.4,
+        "precipType": "rain",
+        "temperatureHigh": 24.88,
+        "temperatureHighTime": 1565967600,
+        "temperatureLow": 13.01,
+        "temperatureLowTime": 1566014400,
+        "apparentTemperatureHigh": 24.88,
+        "apparentTemperatureHighTime": 1565967600,
+        "apparentTemperatureLow": 13.01,
+        "apparentTemperatureLowTime": 1566014400,
+        "dewPoint": 12.14,
+        "humidity": 0.6,
+        "pressure": 1017.19,
+        "windSpeed": 2.6,
+        "windGust": 6.66,
+        "windGustTime": 1565946000,
+        "windBearing": 309,
+        "cloudCover": 0.48,
+        "uvIndex": 5,
+        "uvIndexTime": 1565953200,
+        "visibility": 12.23,
+        "ozone": 330.6,
+        "temperatureMin": 16.31,
+        "temperatureMinTime": 1565924400,
+        "temperatureMax": 24.88,
+        "temperatureMaxTime": 1565967600,
+        "apparentTemperatureMin": 16.31,
+        "apparentTemperatureMinTime": 1565924400,
+        "apparentTemperatureMax": 24.88,
+        "apparentTemperatureMaxTime": 1565967600
+      }
+    ]
+  },
+  "flags": {
+    "sources": [
+      "cmc",
+      "gfs",
+      "icon",
+      "isd",
+      "madis"
+    ],
+    "nearest-station": 6.809,
+    "units": "si"
+  },
+  "offset": 2
+}
