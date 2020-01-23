@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("/event")
 @RestController
+@RequestMapping("/event")
 public class CalendarEventController {
 
 	private CalendarEventRepository calendarEventRepository;
@@ -41,7 +41,7 @@ public class CalendarEventController {
 		return calendarEventRepository.findById(id).orElseThrow(() -> new CalendarEventNotFoundException(id));
 	}
 
-	@GetMapping("/{date}")
+	@GetMapping("/date/{date}")
 	public List<CalendarEvent> getCalendarEventByDate(@PathVariable @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date) {
 		return calendarEventRepository.findByEventDate(date);
 	}
