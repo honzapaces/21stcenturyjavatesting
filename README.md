@@ -9,3 +9,7 @@ Restful Spring App fully covered by tests
 
 ## API Documentation
 http://localhost:8080/swagger-ui.html#
+
+## Interesting Resources
+* https://dzone.com/articles/the-complete-unit-testing-collection
+* https://martinfowler.com/articles/practical-test-pyramid.html
